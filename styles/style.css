@@ -1,8 +1,8 @@
 :root{
-    --cor-primaria: #2C3639;
-    --cor-secundaria: #DCD7C9;
-    --cor-terciaria: #A27B5C;
-    --cor-hover: #3F4E4F;
+    --cor-primaria: #000000;
+    --cor-secundaria: #F7C873;
+    --cor-terciaria: #EEEEEE;
+    --cor-hover: #434242;
     
     --fonte-primaria: oblique;
     --fonte-secundaria: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,12 +63,12 @@ body{
 }
 
 .apresentacao__conteudo__formacoes__lista{
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     font-family: var(--fonte-secundaria);
 }
 
 .nome-fernando{
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__texto{
@@ -106,7 +106,7 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
 
@@ -116,19 +116,12 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
     font-weight: 400;
 }
 
 .apresentacao__image{
-    width: 210px;
-    height: 300px;
-    background-image: url(myimage.jpeg);
-    border: 3px solid var(--cor-terciaria);
-    text-shadow: var(--cor-secundaria);
-    font-size: 1rem;
-    background-size: 150px;
-    border-radius: 50%;
+    width: 36%
 }
 
 @media (max-width: 1200px) {
